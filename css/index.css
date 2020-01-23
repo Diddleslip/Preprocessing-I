@@ -1,1 +1,253 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+body {
+  margin: 0vw 5vw;
+  margin-top: 2vw;
+}
+.navDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.navDiv nav {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.navDiv nav a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5% auto;
+  padding: 4% 2%;
+}
+header p {
+  font-size: 2vw;
+}
+header #img {
+  display: flex;
+}
+header #img img {
+  width: 30%;
+}
+header .introduction {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0;
+  padding-bottom: 1.8%;
+  border-bottom: 1px solid gray;
+}
+header .introduction h1 {
+  font-size: 5vw;
+}
+header .introduction h3 {
+  font-size: 2.5vw;
+  margin: 1% 0;
+}
+#teamupBtn {
+  display: flex;
+  margin: 3% 0;
+  white-space: nowrap;
+}
+#teamupBtn a {
+  background: gray;
+  padding: 1%;
+  font-size: 2.5vw;
+  color: white;
+  text-decoration: none;
+  border-radius: 5%;
+}
+#middle-cont {
+  display: flex;
+  justify-content: space-between;
+}
+#middle-cont div {
+  width: 49%;
+}
+#middle-cont div h2 {
+  font-size: 3vw;
+}
+#middle-cont div p {
+  font-size: 2vw;
+  margin: 1% 0;
+}
+#middle-cont div li {
+  font-size: 1.8vw;
+  padding: 2%;
+  border: 1px solid lightgray;
+}
+#end-cont {
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+}
+#end-cont h2 {
+  font-size: 2.5vw;
+}
+#end-cont .bigDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#end-cont .bigDiv .backGray {
+  background: lightgray;
+  border: 1px solid gray;
+}
+#end-cont .bigDiv .accent {
+  font-weight: bolder;
+}
+#end-cont .bigDiv .smallerWidth {
+  width: 40%;
+}
+#end-cont .bigDiv div {
+  display: flex;
+}
+#end-cont .bigDiv div div {
+  width: 100%;
+  font-size: 1.7vw;
+  padding: 0.7vw;
+}
+footer {
+  text-align: center;
+  background: gray;
+  padding: 2%;
+  color: white;
+  font-size: 1.3vw;
+}
